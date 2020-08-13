@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingTop="@dimen/dimen_10"
+        android:paddingRight="@dimen/activity_margin"
+        android:paddingBottom="@dimen/dimen_10">
+
+
+        <TextView
+            android:id="@+id/dot"
+            android:layout_width="15dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="@dimen/dot_margin_right"
+            android:layout_marginRight="@dimen/dot_margin_right"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/dot_text_size" />
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="319dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/note"
+            android:layout_toEndOf="@id/dot"
+            android:layout_toRightOf="@id/dot"
+            android:textColor="@color/timestamp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="324dp"
+            android:layout_height="39dp"
+            android:layout_toEndOf="@id/dot"
+            android:layout_toRightOf="@id/dot"
+            android:textColor="@color/note_list_text"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

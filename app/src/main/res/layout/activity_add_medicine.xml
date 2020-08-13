@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddMedicineActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="42dp"
+        android:layout_gravity="center"
+        android:text="Enter the Medicine Details Here:"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Name:"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#C0C0C0"
+        android:inputType="text"
+        android:padding="6dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_quantity"
+        android:layout_width="75dp"
+        android:background="#C0C0C0"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="6dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine type (Pill, Tablet, Capsule, ml):"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_type"
+        android:layout_width="203dp"
+        android:layout_marginLeft="20dp"
+        android:background="#C0C0C0"
+        android:padding="6dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="18dp" />
+
+</LinearLayout>
+
+
+
+
+

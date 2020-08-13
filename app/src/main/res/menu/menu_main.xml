@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mycapstoneproject.MainActivity">
+    <item
+        android:id="@+id/delete_all_notes"
+        android:orderInCategory="100"
+        android:title="Delete all medicines"
+        app:showAsAction="never" />
+</menu>
